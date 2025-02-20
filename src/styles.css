@@ -1,0 +1,181 @@
+/* before quiz started  */
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-container{
+    width: 60vw;
+    /* height: 80vh; */
+    border: 2px solid purple;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color:cyan;
+    padding: 30px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.quiz-heading{
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 150px;
+    /* margin-right: 50px; */
+}
+
+.start-quiz{
+font-size: 40px;
+border-radius: 30px;
+padding: 20px;
+background-color: yellow;
+border: 2px solid black;
+margin-left: 37%;
+margin-bottom: 100px;
+}
+
+.start-quiz:hover{
+    background-color: green;
+    color: white;
+}
+
+/* after quiz started  */
+
+.quiz-started{
+    font-size: 25px;
+}
+
+.quiz-started li{
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+.quiz-started li:hover{
+   background-color: yellow;
+   border-radius: 20px;
+}
+
+.next-button{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    width: 300px;
+}
+
+.next-button:hover{
+    background-color: green;
+}
+
+.feedback{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.selected{
+    background-color: rgb(28, 243, 9);
+    border-radius: 20px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+/* after quiz completed   */
+
+.quiz-completed{
+    font-size: 30px;
+}
+
+.quiz-completed h2{
+    margin-left: 25%;
+}
+
+.score{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    display: inline;
+    margin-left: 30%;
+    
+}
+
+.all-attempts{
+    border: 2px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    background-color:green;
+    color: white;
+    height: 300px;
+    overflow: auto;
+}
+
+.all-attempts li{
+    margin: 10px 0px;
+}
+
+.reattempt{
+    font-size: 25px;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    margin-left: 33%;
+    margin-top: 20px;
+
+}
+
+.reattempt:hover{
+    background-color: red;
+}
+
+
+/* media queries for responsiveness  */
+
+@media (max-width:400px){
+    .quiz-heading{
+        font-size: 24px;
+    }
+
+    .start-quiz{
+        font-size: 24px;
+        margin-left: 24%;
+        padding: 10px;
+    }
+
+    .next-button{
+        width: 200px;
+    }
+
+    .feedback{
+        padding: 10px;
+    }
+
+    .quiz-completed{
+        font-size: 20px;
+    }
+
+
+    .quiz-completed h2{
+        margin-left: 10px;
+        font-size: 24px;
+    } 
+    
+    .score{
+        margin-left: 10px;
+    }
+
+    .reattempt{
+        font-size: 20px;
+        margin-left: 10%;
+    }
+}
